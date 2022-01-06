@@ -18,7 +18,7 @@ s/>/p++;/g
 #include<stdio.h>\
 #include<stdlib.h>\
 int main(){\
-char* p = (char*) calloc(100000000, sizeof(char));
+char* p = (char*) calloc(30000, sizeof(char));
 #After last line, insert the }
 $a\
 }
